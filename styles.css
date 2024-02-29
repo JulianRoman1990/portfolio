@@ -1,0 +1,95 @@
+/* fuentes importadas */
+
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
+
+/* estilos generales */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+    background-color: black;
+}
+.navbar-brand {
+  font-family: "COCOGOOSE", sans-serif;
+  font-size: 2rem;
+  margin: auto;
+  color: white;
+}
+
+span{
+    color: red;
+    font-size: 1rem;
+}
+
+.img-fluid{
+    height: 80vh;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-text{
+    font-size: 5rem;
+    font-weight: 700;
+    color: black;
+}
+
+.text-text{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.dev{
+    font-size: 1.8rem;
+    color:blue;
+}
+
+.title-proyectos{
+    text-align: center;
+    font-size: 3rem;
+    color: black;
+    font-family: "COCOGOOSE", sans-serif;
+    margin: 2rem 0;
+}
+.card{
+padding: 1rem;
+}
+
+.row{
+    margin: auto;
+    display: flex;
+  
+    
+}
+
+.div-serv img{
+    height: 250px;
+    filter: drop-shadow(0px 5px 3px #000000);
+    transition:1.5s;
+  
+}
+
+.div-serv img:hover{
+    transform: scale(1.2);
+
+}
+
+footer i {
+    font-size: 2rem;
+}
+
+.skills div {
+
+display: flex;
+}
+
+.skills div img{
+    margin: auto;
+}
